@@ -431,6 +431,11 @@ ol {
 	left: -120px;
 	width: 662px;
 }
+.about-img img {
+	mix-blend-mode: hard-light;
+    height: 330px;
+    border-radius: 35px;
+}
 
 /*---------------------
   Feature Section
@@ -904,7 +909,11 @@ ol {
 }
 
 .footer-widget i {
-	color: #acb9cc;
+	color: #001F3F;
+	font-size: 30px;
+    border: 1px solid #acb8cc;
+    padding: 5px;
+    border-radius: 10px;
 }
 
 .footer-widget p {
@@ -937,7 +946,7 @@ ol {
 	border-radius: 50%;
 	color: #FCFCFC;
 	display: inline-block;
-	margin-right: 0;
+	margin-right: 20px;
 	text-align: center;
 	padding-top: 0;
 	font-size: 18px;
@@ -1227,6 +1236,12 @@ ol {
 		padding-top: 160px;
 		background-position: right 50% top;
 	}
+	.hero-section .row {
+		flex-direction: column-reverse;
+	}
+	.hero-section .row  img{
+		top: 10px;
+	}
 	.page-info-section {
 		background-position: right 56% top;
 		margin-top: 97px;
@@ -1239,7 +1254,11 @@ ol {
 		display: block;
 		left: 0;
 		width: auto;
-		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	.about-img  img{
+		height: 250px;
+		border-radius: 20px;
 	}
 	.team-members {
 		margin: 0;
@@ -1252,6 +1271,12 @@ ol {
 	}
 	.fact {
 		margin-bottom: 30px;
+	}
+	.fact img {
+		right: -40px;
+		top: 0px;
+		opacity: 0.8;
+		width: 70px;
 	}
 	.process-step:after {
 		display: none;
@@ -1323,12 +1348,6 @@ ol {
 	}
 	.newsletter-form input {
 		padding-right: 30px;
-	}
-	.newsletter-form button {
-		position: relative;
-		padding: 14px;
-		border-radius: 50px;
-		margin-top: 23px;
 	}
 	.review-text-slider .owl-prev,
 	.review-text-slider .owl-next {
